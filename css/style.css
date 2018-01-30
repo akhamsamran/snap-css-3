@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Roboto", Helvetica;
 }
 
 .container {
@@ -45,13 +46,18 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
-.container{
-	display: flex;
+
+
+
+.row{
+	width: 100%
+	height: auto;
 }
+.col {
+	width: 50%;
+	float: left;
+}
+
 img[alt*="cat.jpg"] {
-	width: 250px;
-	align-self: start;
-}
-.text {
-	width: 60%;
+	float: right;
 }
